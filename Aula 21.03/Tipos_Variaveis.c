@@ -1,13 +1,23 @@
 #include <stdio.h>
 
 main(){
-	int x=2, y=3, z=10;
-	float a=3, b=3.26, c=3.14;
-	char j='a';
+	int x;
+	float y;
+	char z;
 	
-	printf("x = %d, y = %d, z = %d", x,y,z);
-	printf("\na = %f, b = %f, c = %f", a,b,c);
-	printf("\nj = %c", j);
+	printf("Entre com uma valor para x: ");
+	scanf("%d", &x);
+	fflush(stdin);
+	
+	printf("Entre com um valor para y: ");
+	scanf("%f", &y);
+	fflush(stdin);
+	
+	printf("Entre com um valor para z: \n\n");
+	scanf("%c" ,&z);
+	fflush(stdin);
+	
+	printf("as variaveis sao: x = %d\n y = %f\n z = %c" ,x,y,z);
 	
 	getch(); 
 	
