@@ -1,3 +1,6 @@
+/* Um carro percorreu determinada distância em determinado tempo. Desenvolva o algoritmo para ler estes dados e calcular a velocidade média do carro.
+Sabe-se que a velocidade média é a razão entre a distância percorrida e o tempo para percorrê-la.*/
+
 #include <stdio.h>
 
 main(){
