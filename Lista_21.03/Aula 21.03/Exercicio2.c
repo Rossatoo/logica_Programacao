@@ -1,3 +1,4 @@
+//Escreva um algoritmo para ler o salário mensal e o percentual de reajuste. O algoritmo deve calcular o novo salário e exibi-lo.
 #include <stdio.h>
 
 main(){
