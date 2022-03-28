@@ -1,3 +1,5 @@
+// Converta a temperatura dada em Celsius para Fahrenheit
+
 #include <stdio.h>
 
 main(){
