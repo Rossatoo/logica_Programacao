@@ -1,3 +1,5 @@
+//Faça um algoritmo para calcular e mostrar a área de um triângulo a partir dos valores da base e da altura lidos pelo teclado:
+
 #include <stdio.h>
 
 main(){
