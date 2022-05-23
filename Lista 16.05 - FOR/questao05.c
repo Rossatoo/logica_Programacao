@@ -10,7 +10,7 @@ main(){
 	for(i=1; i<=20; i++){
 		cm = i / 2.54;
 		
-		printf	("%d x 2,54 = %.2f\n", i,cm);
+		printf	("%d / 2,54 = %.2f\n", i,cm);
 	}
 	
 	
