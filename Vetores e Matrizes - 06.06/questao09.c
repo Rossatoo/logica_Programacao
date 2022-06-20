@@ -1,4 +1,4 @@
-//Escreva um programa que leia uma matriz de ordem 5 e verifique se os elementos da diagonal principal (da esquerda para a direita) s„o os mesmos da diagonal secund·ria (direita pra esquerda).
+//Escreva um programa que leia uma matriz de ordem 5 e verifique se os elementos da diagonal principal (da esquerda para a direita) s√£o os mesmos da diagonal secund√°ria (direita pra esquerda).
 
 #include <conio.h>
 #include <stdio.h>
@@ -28,7 +28,7 @@ main(){
 	for(j=0; j<5; j++){
 		
 		if(i==j){
-			printf("%d", matrizA[i][j]);
+			diagonalP = matriz[i][j];
 		}
 	}
 	}
@@ -45,7 +45,7 @@ main(){
 	
 	printf("\n\nDiagonal principal = %d", diagonalP);
 	printf("\n\nDiagonal secundaria = %d", diagonalS);
-	//Verificando se a diagonal principal È igual a diagonal secundaria
+	//Verificando se a diagonal principal √© igual a diagonal secundaria
 	if(diagonalP == diagonalS){
 		printf("A diagonal principal eh IGUAL  a diagonal secundaria");
 	}
